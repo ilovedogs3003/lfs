@@ -1,0 +1,82 @@
+
+    <html>
+    <head>
+    <style>
+    body {
+        font-family: Times New Roman, serif;
+        font-size: 12pt;
+        padding: 40px;
+    }
+
+    .apa-table {
+        border-collapse: collapse;
+        width: 80%;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .apa-table th, .apa-table td {
+        border: none;
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    .apa-table thead {
+        border-bottom: 2px solid black;
+    }
+
+    .apa-table tbody tr:last-child {
+        border-bottom: 2px solid black; /* This ensures table bottom line */
+    }
+
+    caption {
+        caption-side: top;
+        text-align: left;
+        font-style: italic;
+        font-size: 12pt;
+        margin-bottom: 8px;
+    }
+    </style>
+    </head>
+    <body>
+    <table class="apa-table">
+    <caption>Table 2<br>Regression Model Comparisons</caption>
+    
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>CV R²</th>
+      <th>Train R²</th>
+      <th>Test R²</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linear</td>
+      <td>0.779</td>
+      <td>0.805</td>
+      <td>0.807</td>
+    </tr>
+    <tr>
+      <td>KNN</td>
+      <td>-0.074</td>
+      <td>0.303</td>
+      <td>0.085</td>
+    </tr>
+    <tr>
+      <td>Ridge</td>
+      <td>0.780</td>
+      <td>0.805</td>
+      <td>0.807</td>
+    </tr>
+    <tr>
+      <td>Lasso</td>
+      <td>0.783</td>
+      <td>0.805</td>
+      <td>0.807</td>
+    </tr>
+  </tbody>
+
+    </table>
+    </body>
+    </html>
+    
