@@ -1,0 +1,108 @@
+
+    <html>
+    <head>
+    <style>
+    body {
+        font-family: Times New Roman, serif;
+        font-size: 12pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    .apa-table {
+        border-collapse: collapse;
+        width: 80%;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .apa-table th, .apa-table td {
+        border: none;
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    .apa-table thead {
+        border-bottom: 2px solid black;
+    }
+
+    .apa-table tbody tr:last-child {
+        border-bottom: 2px solid black; /* This ensures table bottom line */
+    }
+
+    caption {
+        caption-side: top;
+        text-align: left;
+        font-style: italic;
+        font-size: 12pt;
+        margin-bottom: 2px;
+    }
+    </style>
+    </head>
+    <body>
+    <table class="apa-table">
+    <caption>Table 4<br>Linear & Lasso Coefficient Comparisons</caption>
+    
+    <tr style="text-align: right;">
+      <th>Feature</th>
+      <th>Linear</th>
+      <th>Lasso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Number of Teachers</td>
+      <td>-0.009685</td>
+      <td>-0.000000</td>
+    </tr>
+    <tr>
+      <td>Total Enrollment</td>
+      <td>0.000237</td>
+      <td>-0.000000</td>
+    </tr>
+    <tr>
+      <td>Average Income</td>
+      <td>0.517181</td>
+      <td>3.699206</td>
+    </tr>
+    <tr>
+      <td>English Learners %</td>
+      <td>-0.197463</td>
+      <td>-3.352792</td>
+    </tr>
+    <tr>
+      <td>Income Assistance %</td>
+      <td>-0.105122</td>
+      <td>-1.019676</td>
+    </tr>
+    <tr>
+      <td>Free/Reduced Lunch %</td>
+      <td>-0.363632</td>
+      <td>-9.925710</td>
+    </tr>
+    <tr>
+      <td>Total Computers</td>
+      <td>0.002240</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>Computers per Student</td>
+      <td>-1.501104</td>
+      <td>0.019029</td>
+    </tr>
+    <tr>
+      <td>Expenditure per Student</td>
+      <td>0.001873</td>
+      <td>1.075132</td>
+    </tr>
+    <tr>
+      <td>Student–Teacher Ratio</td>
+      <td>-0.368531</td>
+      <td>-0.580152</td>
+    </tr>
+  </tbody>
+
+    </table>
+    </body>
+    </html>
+    
